@@ -1,4 +1,4 @@
-# Typst [Anki](https://apps.ankiweb.net/) Flashcards
+# Typst Flashcards for [Anki](https://apps.ankiweb.net/)
 
 **Syntax:**
 
@@ -20,13 +20,13 @@ or generate the Anki deck with
 uv run generate.py deck.typ
 ```
 
-The python script
+The Python script
 
 - Splits the input into decks based on first-level headings
 - Converts each deck into individual cards using second-level headings
 - Generates SVG images for question and answer fields
 - Creates Anki notes from the SVG images
-- Builds a deck file `DECKNAME.apkg` for import into Anki
+- Builds a deck file `DECKNAME.apkg` for importing into Anki
 - Adds Anki IDs as labels to headings in the source file for synchronization
 
 ## Example: One Card
@@ -46,7 +46,7 @@ The python script
 This is the corresponding answer.
 ```
 
-## Example: 20 language flashcards
+## Example: 20 Belter language flashcards
 
 I let a Claude generate a few flashcards about the [Belter
 language](https://en.wikipedia.org/wiki/Belter_Creole) from the TV show [The
